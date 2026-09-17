@@ -32,4 +32,3 @@ Our mission is to shape a future through AI-native research, where agent-native 
 | ---------- | ----------- |
 | [**EvoAgentX**](https://github.com/ANative-Lab/EvoAgentX) | Open-source self-evolving agent framework — builds multi-agent workflows from natural-language goals, then executes, evaluates, and iteratively optimizes them. |
 | [**Awesome-Self-Evolving-Agents**](https://github.com/ANative-Lab/Awesome-Self-Evolving-Agents) | A comprehensive survey of self-evolving AI agents — a new paradigm bridging foundation models and lifelong agentic systems. |
-| [**EvoScientist**](https://github.com/EvoScientist/EvoScientist) | Your self-evolving AI scientist — a multi-agent system for end-to-end scientific discovery. |
