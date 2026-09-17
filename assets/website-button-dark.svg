@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="224" height="44" viewBox="0 0 224 44" role="img" aria-label="ANative Lab Website">
+  <title>ANative Lab Website</title>
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pill-clip">
+      <rect x="120" y="7" width="97" height="30" rx="7"/>
+    </clipPath>
+  </defs>
+  <style>
+    .shine { animation: sweep 5.5s ease-in-out infinite; }
+    @keyframes sweep {
+      0%   { transform: translateX(0); }
+      32%  { transform: translateX(157px); }
+      100% { transform: translateX(157px); }
+    }
+    @media (prefers-reduced-motion: reduce) { .shine { animation: none; opacity: 0; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="223" height="43" rx="10" fill="#11201d" stroke="#1f3b34"/>
+
+  <text x="18" y="27.5" textLength="58" lengthAdjust="spacingAndGlyphs" font-family="Inter, -apple-system, system-ui, sans-serif"
+        font-size="15" font-weight="700" fill="#34e3a0">ANative</text>
+  <text x="76" y="27.5" textLength="30" lengthAdjust="spacingAndGlyphs" font-family="Inter, -apple-system, system-ui, sans-serif"
+        font-size="15" font-weight="700" fill="#e6f4ee">&#160;Lab</text>
+
+  <rect x="120" y="7" width="97" height="30" rx="7" fill="#059669"/>
+  <g clip-path="url(#pill-clip)">
+    <g class="shine">
+      <rect x="90" y="0" width="26" height="44" fill="url(#shine)" transform="skewX(-18)"/>
+    </g>
+  </g>
+
+  <text x="133" y="27.5" textLength="57" lengthAdjust="spacingAndGlyphs" font-family="Inter, -apple-system, system-ui, sans-serif"
+        font-size="14" font-weight="700" fill="#ffffff">Website</text>
+  <path d="M196 25.5 L203 18.5 M197.6 18.5 H203 V23.9" fill="none" stroke="#ffffff"
+        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
